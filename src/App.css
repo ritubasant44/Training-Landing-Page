@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MuiPaper-root{
+  height: 380px;
+  width: 614px;
+}
+.MuiPaper-root img{
+  width: 307px;
+  height:500px;
+}
+.MuiDialogContent-root:first-child {
+  padding-top: 0px !important;
+}
+.MuiDialogContent-root {
+    padding: 0px !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden !important;
+}
+.MuiDialog-paperWidthSm {
+  max-width: 90% !important;
+  width: 70% !important;
+  height: 500px !important;
+}
+.popupimg{
+  width: 71px !important;
+  height: 66px!important;
+  margin-left: 101px!important;
+  margin-top: 20px !important;
+}
+.pdesc{
+width: 80% !important;
+text-align: center!important;
+margin-left: -33px!important;
+margin-top: 30px!important;
+font-weight: bold!important;
+color: #000!important;
+}
+.btnc{
+  justify-content: center;
+    /* margin-left: -141px; */
+    background-color: #e8dede;
+    width: 265px;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+.btnc span{
+  color: grey;
+}
+.container-fluid{
+  width: 99% !important;
+}
+
